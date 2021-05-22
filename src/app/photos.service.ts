@@ -17,7 +17,7 @@ export class PhotosService {
   getPhoto() {
     return this.http.get<Photo>('https://api.unsplash.com/photos/random', {
       headers: {
-        Authorization: 'Client-ID 0GuBFDNXihzlZhhm8PE_kGnR_-PLkjJmeflk9Ng8fYI'
+        Authorization: 'Client-ID 3zifIe-bYGRIlr6wDrC1uEXq7sgkI_O8-YyrsLJByMc'
       }
     });
   }
